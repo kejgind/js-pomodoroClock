@@ -1,0 +1,43 @@
+/*
+colors:
+grey - #50514f
+violet - #b4adea
+light - #fdfff7
+green - #59ffa0
+yellow - #ffed65
+*/
+
+body {
+  background-color: #50514f;
+  color: #fdfff7;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app__name,
+.time__display {
+  grid-column: 1 / span 2;
+  justify-self: center;
+  text-align: center;
+}
+
+.buttons__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.time__display {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: solid 2px #fdfff7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
