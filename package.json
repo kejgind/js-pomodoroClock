@@ -1,0 +1,29 @@
+{
+  "name": "js-pomodoroclock",
+  "version": "1.0.0",
+  "description": "JavaScript Pomodoro Clock for freeCodeCamp Front-end projects ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kejgind/js-pomodoroClock.git"
+  },
+  "keywords": [
+    "javascript",
+    "pomodoro",
+    "clock",
+    "js",
+    "freeCodeCamp"
+  ],
+  "author": "Krzysztof Garbowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kejgind/js-pomodoroClock/issues"
+  },
+  "homepage": "https://github.com/kejgind/js-pomodoroClock#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}

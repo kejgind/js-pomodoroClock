@@ -1,2 +1,2 @@
 # js-pomodoroClock
-JavaScrip Pomodoro Clock for freeCodeCamp Front-end projects 
+JavaScript Pomodoro Clock for freeCodeCamp Front-end projects 
