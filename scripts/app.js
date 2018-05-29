@@ -45,8 +45,8 @@ const displayCurrentPurpose = document.querySelector('.current__purpose');
 
 // Application current state
 const globalState = {
-  workTime: 0.2,
-  breakTime: 0.1,
+  workTime: 25,
+  breakTime: 5,
   currentTime: null,
   purpose: 'work',
   currentStatus: 'stop',
@@ -74,7 +74,6 @@ const displayChanger = () => {
     : (globalState.currentTime = globalState.breakTime * 60 * 1000);
   displayCurrentTime.innerText = timeDisplayFormat(globalState.currentTime);
   displayCurrentPurpose.innerText = globalState.purpose;
-  console.log(globalState);
 };
 
 displayChanger();
@@ -115,7 +114,6 @@ const runTime = time => {
   globalState.currentTime = time - Date.now();
   displayCurrentTime.innerText = timeDisplayFormat(globalState.currentTime);
   globalState.currentStatus = 'run';
-  console.log(globalState);
 };
 
 const resetTime = () => {
